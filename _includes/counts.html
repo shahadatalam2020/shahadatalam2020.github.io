@@ -17,8 +17,14 @@
                             <div class="count-box">
                                 <p>Over</p>
                                 <i class="icofont-code"></i>
-                                <span data-toggle="counter-up">20</span>
+                                <span id="yrPassed" data-toggle="counter-up"></span>
                                 <p>years of experience in software development</p>
+                                <script>
+                                        var yrStart = 2000;
+                                        var yrEnd = Date().split(" ")[3];
+                                        console.log(yrEnd - yrStart);
+                                        document.getElementById("yrPassed").innerHTML = yrEnd - yrStart;
+                                    </script>
                             </div>
                         </div>
 
@@ -26,8 +32,14 @@
                             <div class="count-box">
                                 <p>Over</p>
                                 <i class="icofont-earth"></i>
-                                <span data-toggle="counter-up">30</span>
+                                <span id="yrPassed1" data-toggle="counter-up"></span>
                                 <p>years of experience in trading</p>
+                                <script>
+                                        var yrStart = 1987;
+                                        var yrEnd = Date().split(" ")[3];
+                                        console.log(yrEnd - yrStart);
+                                        document.getElementById("yrPassed1").innerHTML = yrEnd - yrStart;
+                                    </script>
                             </div>
                         </div>
 
