@@ -1587,3 +1587,27 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+/*-------------------Details--------------------------*/
+.details1 .icon-box .icon {
+  margin: 0;
+  width: 64px;
+  height: 64px;
+  background: #ffc451;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.details1 .ic-h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.details1 .ic-h4:nth-child(2) {
+  margin-left: 20px;
+}
