@@ -888,7 +888,8 @@ section {
   opacity: 1;
 }
 
-.portfolio .sub-title-desc {
+.portfolio .sub-title-desc,
+.services .sub-title-desc {
   font-size: 1rem;
   font-weight: normal;
   text-transform: none;
