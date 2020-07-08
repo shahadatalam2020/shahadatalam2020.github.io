@@ -1621,3 +1621,6 @@ section {
 .details1 .ic-h4:nth-child(2) {
   margin-left: 20px;
 }
+.contact .info p a{
+  color: #000;
+}
