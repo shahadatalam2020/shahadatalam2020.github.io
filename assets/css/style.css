@@ -1625,3 +1625,14 @@ section {
 .contact .info p a{
   color: #484848;
 }
+#portfolio .portfolio-wrap .portfolio-info{
+  opacity: 1;
+  background-color: rgba(42, 42, 42, 0.7);
+}
+#portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 0.5;
+    background: none !important;
+}
+#portfolio .portfolio-wrap {
+    background: none !important;
+}
