@@ -1625,6 +1625,11 @@ section {
 .contact .info p a{
   color: #484848;
 }
+
+.contact .info p a:hover{
+  color: #ffc451;
+}
+
 #portfolio .portfolio-wrap .portfolio-info{
   opacity: 1;
   background-color: rgba(42, 42, 42, 0.7);
@@ -1635,4 +1640,9 @@ section {
 }
 #portfolio .portfolio-wrap {
     background: none !important;
+}
+.contact-map {
+    border: 0;
+    width: 100%;
+    height: 270px;
 }
