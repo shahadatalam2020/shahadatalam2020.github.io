@@ -957,10 +957,8 @@ section {
 }
 
 .counts .image {
-  /*background: url("../img/counts-img.jpg") center center no-repeat;
-  background-size: cover;*/
-  background: url("../img/counts-img.jpg") top 35px center no-repeat;
-  background-size: contain;
+  background: url("../img/counts-img.jpg") center center no-repeat;
+  background-size: cover;
   min-height: 400px;
 }
 
