@@ -956,12 +956,12 @@ section {
   color: #626262;
 }
 
-.counts .image {
+/*.counts .image {
   background: url("../img/counts-img.jpg") center center no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
   background-size: contain;
   min-height: 400px;
-}
+}*/
 
 @media (max-width: 991px) {
   .counts .image {
