@@ -1654,3 +1654,16 @@ section {
 .section-title h2 a:hover {
   color: #ffc451;
 }
+
+.services .icon-details {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background: #ffc451;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+.services .icon-details i {
+    font-size: 28px;
+}
